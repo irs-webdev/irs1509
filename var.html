@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>var</title>
+	<style>
+		body {
+			--primary: #0574d9;
+			--secondary: #174c7a;
+			--white: #fff;
+		}
+
+		main {
+			--fs: 3vw;
+		}
+
+		section {
+			--fs: 14px;
+		}
+
+		h1 {
+			font-size: calc(2 * var(--fs));
+		}
+
+		section.hot {
+			--primary: #890a30;
+			--secondary: #890a30;
+			--white: #ff9045;
+		}
+
+		section > h1 {
+			background: var(--secondary);
+			color: var(--white);
+		}
+	</style>
+</head>
+<body>
+	<main>
+		<h1>Заголовок в main</h1>
+		<section>
+			<h1>Заголовок section</h1>
+		</section>
+		<section class="hot">
+			<h1>Заголовок section</h1>
+		</section>
+		<section>
+			<h1>Заголовок section</h1>
+		</section>
+	</main>
+</body>
+</html>
