@@ -3,3 +3,21 @@ body {
 	font-family: 'Noto Serif JP', sans-serif;
 	background: #f0f0f0;
 }
+
+.logo {
+	width: 200px;
+}
+
+aside {
+	background-image: url(bg.svg);
+	background-size: cover;
+	background-position: center top;
+	text-align: center;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	color: white;
+}
+
+#V {
+	fill: green;
+}
