@@ -2,6 +2,11 @@ body {
 	margin: 0;
 	font-family: 'Noto Serif JP', sans-serif;
 	background: #f0f0f0;
+	font-size: calc(12px + 1vw);
+}
+
+.col-12 {
+	width: calc(100% / calc(6 + 6));
 }
 
 .logo {
